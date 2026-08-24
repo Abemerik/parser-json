@@ -168,5 +168,3 @@ def _parse_array(text: str, i: int, LIMIT: int) -> tuple:
                 raise ValueError()
 
     return result, i
-
-print(parser(open("test.json", "r", encoding="utf-8").read()))
